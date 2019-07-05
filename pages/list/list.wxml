@@ -1,0 +1,26 @@
+<view class="container bg">
+  <view class="userInfo">
+    <image src='http://www.heshuai521.top/shuai/personage_icon.png'></image>
+
+    <text class="t1">黄思雨</text>
+    <view class="t2">交通银行 深圳分行</view>
+    <button bindtap='qrcode' class='add'><icon type="success" size="10" color='#fff'/> 添加定制</button>
+  </view>
+  <view class='card-box'>
+
+    <block wx:for="{{cardList}}" wx:key="{{index}}">
+      <view class='card-cell'>
+        <view class='card-head'>
+          <view class="qrcode">
+           <canvas style="width: 185rpx; height: 185rpx;" canvas-id="{{item.id}}"></canvas>
+          </view>
+        </view>
+        <view class='card-title'>{{item.name}}</view>
+        <button class='card-btn' bindtap='share' data-card='{{item.id}}'>立即分享</button>
+        <!-- <button  open-type='share' class='card-btn'>立即分享</button> -->
+      </view>
+    </block>
+
+  </view>
+  <canvas style="width: 375px;height: 667px;position:fixed;left:9999px" canvas-id="mycanvas"></canvas>
+</view>

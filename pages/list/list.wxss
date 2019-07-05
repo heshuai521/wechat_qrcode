@@ -1,0 +1,112 @@
+.container {
+  padding: 0 30rpx;
+} 
+.bg{
+  background: url('http://www.heshuai521.top/shuai/bg.png') repeat-y center center/100%;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-bottom: 200rpx;
+  box-sizing: border-box;
+}
+.userInfo{
+  height: 120rpx;
+  background: #fff;
+  border-radius: 10rpx; 
+  margin-top: 60rpx;
+  box-shadow: 0rpx 0rpx 50rpx #9cb2ee;
+  padding: 20rpx 30rpx 0;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+.userInfo image{
+  width: 44rpx;
+  height: 44rpx;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 16rpx;
+}
+.userInfo .t1{
+  font-family: PingFangSC-Medium;
+  font-size: 34rpx;
+  font-weight: 900;
+  color: #333333;
+  letter-spacing: 2.27px;
+}
+.userInfo .t2{
+  font-family: PingFangSC-Regular;
+  font-size: 26rpx;
+  color: #999999;
+  letter-spacing: 0;
+  line-height: 30rpx;
+  margin-left: 60rpx;
+  margin-top: 10rpx;
+}
+.userInfo .add{
+  width: 220rpx;
+  height: 62rpx;
+  line-height: 62rpx;
+  position: absolute;
+  top: 50%;
+  margin-top: -31rpx;
+  right: 30rpx;
+  background-image: linear-gradient(134deg, #3B90F8 0%, #4669FF 100%);
+  border-radius: 31rpx;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #FFFFFF;
+}
+.userInfo .add text{
+ font-size: 60rpx;
+}
+.card-box{
+  
+}
+.card-box .card-cell{
+  display: inline-block;
+  /* background: url('http://www.heshuai521.top/shuai/custom_bg@2x.png') no-repeat center center/100%; */
+  background: #fff;
+  border-radius: 30rpx;
+  width: 330rpx;
+  height: 391rpx;
+  margin-top: 38rpx;
+  margin-right: 30rpx;
+  overflow: hidden;
+}
+.card-box .card-cell:nth-child(2n){
+  margin-right: 0;
+}
+.card-box .card-cell .card-title{
+  margin: 20rpx auto;
+  text-align: center;
+  font-family: PingFangSC-Regular;
+  font-size: 30rpx;
+  color: #5883F3;
+  letter-spacing: 0;
+  line-height: 30rpx;
+}
+.card-box .card-cell .card-btn{
+  background-image: linear-gradient(-122deg, #FFA239 0%, #FF670A 100%);
+  border-radius: 30rpx;
+  width: 220rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #fff;
+  font-size: 30rpx;
+  font-weight: 900;
+}
+.card-box .card-cell .card-head{
+  height: 235rpx;
+  line-height: 235rpx;
+  background-image: linear-gradient(-134deg, #3B90F8 0%, #4669FF 100%);
+  position: relative;
+  text-align: center;
+  font-size: 0;
+}
+
+.card-box .card-cell .card-head .qrcode {
+  border-radius: 14rpx;
+  border: 8rpx solid #89C3FF;
+  display: inline-block;
+  vertical-align: middle;
+}

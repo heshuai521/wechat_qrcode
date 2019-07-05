@@ -1,0 +1,3 @@
+<view class="bg" style='background-image: url("{{qrcode}}");'>
+  <button bindtap='saveImg'>点击下载</button>
+</view>
